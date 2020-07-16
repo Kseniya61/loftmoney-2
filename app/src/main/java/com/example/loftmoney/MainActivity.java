@@ -27,5 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // TODO: - Here we will work with recyclerview
+
     }
 }
