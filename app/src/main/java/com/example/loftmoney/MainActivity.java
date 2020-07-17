@@ -21,13 +21,10 @@ public class MainActivity extends AppCompatActivity {
         knopka.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent newActivity = new Intent(getApplicationContext(), SecondActivity.class);
-                newActivity.putExtra("COST_ID", 11112222);
+                Intent newActivity = new Intent(getApplicationContext(), AddItemActivity.class);
                 startActivity(newActivity);
             }
         });
-
-        // TODO: - Here we will work with recyclerview
 
     }
 }
